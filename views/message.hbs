@@ -1,0 +1,36 @@
+{{!-- <div id="messages">
+<% Object.keys(messages).forEach(function (type) { %>
+  <ul class="<%= type %>">
+  <% messages[type].forEach(function (message) { %>
+    <li><%= message %></li>
+  <% }) %>
+  </ul>
+<% }) %>
+</div>
+
+<div id="messages">
+    {{Object.key{{message}}}}
+</div>
+
+
+<% if(typeof errors!= 'undefined') { %>
+<%    errors.forEach(function(error){ %>
+<p> <%= error.msg %></p>
+<%    })        %>
+<% } %>
+
+
+
+
+{{#if typeof errors !== "undefined"}}
+  {{#each error}}
+    <p>{{error.msg}}</p>
+  {{/each}}
+{{/if}
+
+ --}}
+
+
+{{#if error}}
+    <div class="alert alert-danger">{{error}}</div>
+{{/if}}

@@ -1,0 +1,84 @@
+{{!-- <nav class="navbar navbar-expand-lg navbar-dark py-4 bg-warning">
+  <div class="container">
+     <img src="/image/flipkart.png" width="170px;" height="60px;" margin-bottom="10px" alt="logo"/>
+     
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 lg-0"> --}}
+
+ <link rel="stylesheet" href="/css/style.css">
+
+<div class="shadow-sm p-3 mb-5 bg-white rounded">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+   
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+{{#each photo}}
+        <li class="nav-item-2" >
+             <img src="{{this.imageUrl}}" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" id ="color"aria-current="page" href="{{this.Url}}">{{this.label}}</a>
+        </li>
+
+        {{/each}}
+
+      {{!-- <li class="nav-item-2">
+             <img src="/image/product-2.png" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" aria-current="page" href="/category/electronics">Electronics</a>
+        </li>
+
+
+       <li class="nav-item-2">
+             <img src="/image/product-3.png" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" aria-current="page" href="/category/appliance">T.V Appliance</a>
+        </li>
+
+
+       <li class="nav-item-2">
+             <img src="/image/product-1.png" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" aria-current="page" href="/category/mobile">Mobiles&Tablet</a>
+        </li>
+
+
+       <li class="nav-item-2" id="photo">
+             <img src="/image/product-5.png" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" aria-current="page" href="/category/beauty">Beauty</a>
+        </li>
+
+
+       <li class="nav-item-2">
+             <img src="/image/product-6.png" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" aria-current="page" href="/category/furniture">Home&Furniture</a>
+        </li>
+
+
+       <li class="nav-item-2">
+             <img src="/image/product-7.png" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" aria-current="page" href="/category/fk">FK&Orginials</a>
+        </li>
+        
+       <li class="nav-item-2">
+             <img src="/image/product-8.png" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" aria-current="page" href="/category/flight">Flight&Hotels</a>
+        </li>
+       
+
+       <li class="nav-item-2" >
+            <img src="/image/product-5.png" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" aria-current="page" href="/category/fashion">Fashion</a>
+        </li>
+        --}}
+
+            
+       {{!-- <li class="nav-item-2"id="ki">
+             <img src="/image/product-9.png" width="70px;" height="60px;" margin-bottom="10px" alt="logo"/><br>
+          <a class="nav-link active" aria-current="page" href="/category/grocery">Grocery</a>
+        </li> --}}
+       
+     
+    </div>
+  </div>
+</div>
+</nav>
